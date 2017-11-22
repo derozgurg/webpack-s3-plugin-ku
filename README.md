@@ -9,7 +9,8 @@ npm -i webpack-s3-plugin-ku
 ```
 
 ##### Usage
-```bash
+```bash	
+	var KUWebpackS3Depoloyment = require('webpack-s3-plugin-ku');
 
 	module.exports = {
 	    plugins: [
@@ -26,7 +27,7 @@ npm -i webpack-s3-plugin-ku
 	                "main"
 	            ]
 	        }),
-	        new S3Plugin({
+	        new KUWebpackS3Depoloyment({
 	            s3Options: {
 	                accessKeyId: "accessKeyId",
 	                secretAccessKey: "secretAccessKey",
