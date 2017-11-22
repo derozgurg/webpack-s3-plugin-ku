@@ -4,8 +4,6 @@
 
 let AWS = require('aws-sdk');
 const fs = require('fs');
-const path = require('path');
-const util = require('util');
 const s3util = require('./mimatypes');
 
 function KUWebpackS3Depoloyment(options) {
@@ -48,7 +46,6 @@ function KUWebpackS3Depoloyment(options) {
 
     const uploadFile = (file,callback,error) =>{
         console.log("S3 Deployment Plugin start uploading file :", file.name);
-
 
         let name = file.name;
         let l = name.length;

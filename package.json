@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derozgurg/webpack-s3-plugin-ku.git"
+  },
   "author": "Özgür Çimen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  	 "aws-sdk": "~2.94.0"
+  }
 }
