@@ -1,6 +1,6 @@
 # webpack-s3-plugin-ku
 
-Webpack S3 file uplaod plugin 
+An alternative Webpack S3 file uplaod plugin 
 
 ##### Installation 
 ```bash
